@@ -10,25 +10,25 @@ Roy is a small functional language that compiles to JavaScript. It has a few mai
 * Not-horrible JS output
 
 ## Usage
-To compile:
+Install roy:
 
     make deps
     make
 
-To enter a REPL:
+Enter a read-eval-print loop (REPL):
 
     ./roy
 
-To compile and run a `.roy` file:
+Compile and run a `.roy` file:
 
     ./roy -r examples/helloworld.roy
 
-To compile a `.roy` file to `.js`:
+Compile a `.roy` file to `.js`:
 
     ./roy examples/helloworld.roy
     cat examples/helloworld.js
 
-## Example
+## Examples
 Input (test.roy):
 
 ```roy
